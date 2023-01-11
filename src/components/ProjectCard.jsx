@@ -1,6 +1,6 @@
 export default function ProjectCard({ title, projectScope, cover, link }) {
   return (
-    <div className="pt-4 pr-4 pb-4">
+    <div className="pt-4 pb-4">
       <a href={link}>
         <img src={cover} className="rounded-r-xl rounded-l-xl"></img>
         <h3 className="text-4xl font-bold text-left text-zinc-400 pt-2">
