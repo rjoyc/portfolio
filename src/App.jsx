@@ -12,6 +12,8 @@ import RunAlong from "./assets/runAlong-cover.png";
 import InvestmentApp from "./assets/investmentApp-cover.png";
 import SlateReport from "./assets/slate-cover.png";
 import SlateReportPDF from "./assets/SlateImpactReport.pdf";
+import Connect from "./components/Connect";
+import Copywrite from "./components/Copywrite";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -30,6 +32,10 @@ function App() {
     "https://www.notion.so/racheljoy/Run-Along-How-might-we-help-people-track-their-running-data-all-in-one-place-beb449b7c9ed4123aa25b5e75e01d082";
   const investmentAppLink =
     "https://www.notion.so/racheljoy/Investment-Planner-Dash-How-might-we-help-users-organize-one-time-investments-183cf2abfa3c4ad78150e70905a834a0";
+  const linkedInLink = "https://www.linkedin.com/in/rjcopreros/";
+  const emailLink ="mailto:rjoycopreros@gmail.com";
+  const githubLink = "https://github.com/rjoyc"
+  const copywriteYear = "2023";
 
   return (
     <div>
@@ -96,6 +102,8 @@ function App() {
           link={SlateReportPDF}
         ></ProjectCard>
       </div>
+      <Connect linkedIn={linkedInLink} email={emailLink} github={githubLink}></Connect>
+      <Copywrite year={copywriteYear}></Copywrite>
     </div>
   );
 }
