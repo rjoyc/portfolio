@@ -10,6 +10,8 @@ import CoffeeHouse from "./assets/coffeeHouse-cover.png";
 import Asanaban from "./assets/asanaban-cover.png";
 import RunAlong from "./assets/runAlong-cover.png";
 import InvestmentApp from "./assets/investmentApp-cover.png";
+import SlateReport from "./assets/slate-cover.png";
+import SlateReportPDF from "./assets/SlateImpactReport.pdf";
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
   const asanabanLink ="https://www.notion.so/racheljoy/Asanaban-How-might-we-help-employees-view-their-Asana-tasks-in-Kanban-c3afd502a0ae45898a52a0a6fcaa4f3d";
   const runAlongLink = "https://www.notion.so/racheljoy/Run-Along-How-might-we-help-people-track-their-running-data-all-in-one-place-beb449b7c9ed4123aa25b5e75e01d082";
   const investmentAppLink = "https://www.notion.so/racheljoy/Investment-Planner-Dash-How-might-we-help-users-organize-one-time-investments-183cf2abfa3c4ad78150e70905a834a0";
+  const slateReportLink = "https://uploads-ssl.webflow.com/62ea985b758eea7e710988c9/63bc5c384eed0fb9dae85d21_2022%20Impact%20Report.pdf"
 
   return (
     <div>
@@ -35,7 +38,7 @@ function App() {
       <h4 className="text-left w-96 pt-10 font-semibold text-zinc-400">
         Lörem ipsum vakare kontramusk. Pseudoling kal nidyde för att suska. Byst sesit kron afåvis, kande. Pertik mus, il telera. Ning. Geon hypor för kåning, ost. Krodyssade anade såväl. 
       </h4>
-      <h2 className="text-4xl font-bold text-center text-zinc-400 pt-12 pb-2">my work</h2>
+      <h2 className="text-4xl font-bold text-center text-zinc-400 pt-12 pb-3">my work</h2>
       <div className="flex-row">
           <ProjectCard title="projectify" projectScope="ui/ux design & development" cover={Projectify} link={projectifyLink}></ProjectCard>
           <ProjectCard title="thrive" projectScope="ui/ux design, designathon" cover={Thrive} link={thriveLink}></ProjectCard>
@@ -46,7 +49,8 @@ function App() {
       </div>
       <div className="flex-row">
           <ProjectCard title="run along" projectScope="ui design" cover={RunAlong} link={runAlongLink}></ProjectCard>
-          <ProjectCard title="investment planner dashboard" projectScope="ui design" cover={InvestmentApp} link={investmentAppLink}></ProjectCard>
+          <ProjectCard title="investment planner" projectScope="ui design" cover={InvestmentApp} link={investmentAppLink}></ProjectCard>
+          <ProjectCard title="slate church report" projectScope="ui design" cover={SlateReport} link={SlateReportPDF}></ProjectCard>
       </div>
       
     </div>
