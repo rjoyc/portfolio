@@ -1,6 +1,6 @@
 export default function NavBar({ aboutLink, resumeLink, workLink }) {
   return (
-    <div className="flex-row items-center text-right flex-between">
+    <div className="flex justify-between">
       <div>
         <a href={workLink}>
           <img src="src\assets\temp-logo.svg" alt="R logo"></img>
