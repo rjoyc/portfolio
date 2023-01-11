@@ -50,10 +50,8 @@ function App() {
       <h2 className="text-4xl font-bold text-left text-zinc-400 pt-3 pb-2">
         a designer & <br></br> developer
       </h2>
-      <h4 className="text-left w-96 pt-10 font-semibold text-zinc-400">
-        Lörem ipsum vakare kontramusk. Pseudoling kal nidyde för att suska. Byst
-        sesit kron afåvis, kande. Pertik mus, il telera. Ning. Geon hypor för
-        kåning, ost. Krodyssade anade såväl.
+      <h4 className="text-left w-1/2 pt-10 font-semibold text-zinc-400">
+        i'm currently studying systems design engineering at UW. i'm an empathetic creator + a curious learner, looking for ways bridge the gap between design and development. also, i'm seeking summer 2023 internships!
       </h4>
       <h2 className="text-4xl font-bold text-center text-zinc-400 pt-16 pb-5">
         my work
