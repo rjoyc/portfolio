@@ -33,8 +33,8 @@ function App() {
   const investmentAppLink =
     "https://www.notion.so/racheljoy/Investment-Planner-Dash-How-might-we-help-users-organize-one-time-investments-183cf2abfa3c4ad78150e70905a834a0";
   const linkedInLink = "https://www.linkedin.com/in/rjcopreros/";
-  const emailLink ="mailto:rjoycopreros@gmail.com";
-  const githubLink = "https://github.com/rjoyc"
+  const emailLink = "mailto:rjoycopreros@gmail.com";
+  const githubLink = "https://github.com/rjoyc";
   const copywriteYear = "2023";
 
   return (
@@ -44,16 +44,29 @@ function App() {
         workLink={workLink}
         resumeLink={Resume}
       ></NavBar>
-      <h1 className="font-bold text-left text-8xl pt-32 pb-2">
-        hi, i'm <br></br> rachel joy
-      </h1>
-      <h2 className="text-4xl font-bold text-left text-zinc-400 pt-3 pb-2">
-        a designer & <br></br> developer
-      </h2>
-      <h4 className="text-left w-1/2 pt-10 font-semibold text-zinc-400">
-        i'm currently studying systems design engineering at UW. i'm an empathetic creator + a curious learner, looking for ways bridge the gap between design and development. also, i'm seeking summer 2023 internships!
-      </h4>
-      <h2 className="text-4xl font-bold text-center text-zinc-400 pt-16 pb-5">
+      <div className="flex justify-between items-center">
+        <img
+          src="src\assets\doodle-landing.png"
+          alt="doodle of teenager listens to music in headphones and hang loose symbol"
+          className="h-full w-full pt-16 hover:animate-wiggle"
+        ></img>
+        <div>
+          <h1 className="font-bold text-left text-8xl pt-32 pb-2">
+            hi, i'm <br></br> rachel joy
+          </h1>
+          <h2 className="text-4xl font-bold text-left text-gray-500 pt-3 pb-2">
+            a designer & <br></br> developer
+          </h2>
+          <h4 className="text-left w-3/4 pt-10 font-normal text-gray-500">
+            i'm currently studying systems design engineering at UW. i'm an
+            empathetic creator + a curious learner, looking for ways bridge the
+            gap between design and development. also, i'm seeking summer 2023
+            internships!
+          </h4>
+        </div>
+      </div>
+
+      <h2 className="text-4xl font-bold text-center text-gray-500 pt-16 pb-10">
         my work
       </h2>
       <div className="grid grid-cols-2 gap-12">
@@ -100,7 +113,11 @@ function App() {
           link={SlateReportPDF}
         ></ProjectCard>
       </div>
-      <Connect linkedIn={linkedInLink} email={emailLink} github={githubLink}></Connect>
+      <Connect
+        linkedIn={linkedInLink}
+        email={emailLink}
+        github={githubLink}
+      ></Connect>
       <Copywrite year={copywriteYear}></Copywrite>
     </div>
   );

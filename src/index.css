@@ -9,7 +9,13 @@
 }
 
 @font-face {
-    font-family: "OpenSauceSansSemiBold";
-    src: local("OpenSauceSansSemiBold"),
-      url("./fonts/OpenSauceSans-SemiBold.ttf") format("truetype");
-  }
+  font-family: "OpenSauceSansSemiBold";
+  src: local("OpenSauceSansSemiBold"),
+    url("./fonts/OpenSauceSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSauceSansRegular";
+  src: local("OpenSauceSansRegular"),
+    url("./fonts/OpenSauceSans-Regular.ttf") format("truetype");
+}

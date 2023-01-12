@@ -9,19 +9,19 @@ export default function NavBar({ aboutLink, resumeLink, workLink }) {
       <div>
         <span>
           <a
-            className="font-semibold pr-12 hover:underline hover:underline-offset-4 hover:cursor-pointer"
+            className="font-semibold pr-12 hover:underline hover:underline-offset-4 hover:cursor-pointer hover:decoration-2"
             href={workLink}
           >
             work
           </a>
           <a
-            className="font-semibold pr-12 hover:underline hover:underline-offset-4 hover:cursor-pointer"
+            className="font-semibold pr-12 hover:underline hover:underline-offset-4 hover:cursor-pointer hover:decoration-2"
             href={aboutLink}
           >
             about
           </a>
           <a
-            className="font-semibold hover:underline hover:underline-offset-4 hover:cursor-pointer"
+            className="font-semibold hover:underline hover:underline-offset-4 hover:cursor-pointer hover:decoration-2"
             href={resumeLink}
             target="_blank"
             rel="noopener noreferrer"
