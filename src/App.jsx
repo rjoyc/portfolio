@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Resume from "./assets/RachelJoyCoprerosResumeWinter2023.pdf";
@@ -44,20 +43,22 @@ function App() {
         workLink={workLink}
         resumeLink={Resume}
       ></NavBar>
-      <div className="flex justify-between items-center">
-        <img
-          src="src\assets\doodle-landing.png"
-          alt="doodle of teenager listens to music in headphones and hang loose symbol"
-          className="h-full w-full pt-16 hover:animate-wiggle"
-        ></img>
+      <div className="flex justify-center items-center pt-20">
         <div>
-          <h1 className="font-bold text-left text-8xl pt-32 pb-2">
+          <img
+            src="src\assets\doodle-landing.png"
+            alt="doodle of teenager listens to music in headphones and hang loose symbol"
+            className="pt-2 pl-5 pr-12 hover:animate-wiggle h-80"
+          ></img>
+        </div>
+        <div className="w-1/2">
+          <h1 className="font-bold text-left text-8xl pt-30 pb-2">
             hi, i'm <br></br> rachel joy
           </h1>
           <h2 className="text-4xl font-bold text-left text-gray-500 pt-3 pb-2">
             a designer & <br></br> developer
           </h2>
-          <h4 className="text-left w-3/4 pt-10 font-normal text-gray-500">
+          <h4 className="text-left pt-10 font-normal text-gray-500 w-3/4">
             i'm currently studying systems design engineering at UW. i'm an
             empathetic creator + a curious learner, looking for ways bridge the
             gap between design and development. also, i'm seeking summer 2023
