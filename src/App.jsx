@@ -48,7 +48,7 @@ function App() {
           <img
             src="src\assets\doodle-landing.png"
             alt="doodle of teenager listens to music in headphones and hang loose symbol"
-            className="pt-2 pl-5 pr-12 hover:animate-wiggle h-80"
+            className="pt-2 pl-5 pr-20 hover:animate-wiggle h-80"
           ></img>
         </div>
         <div className="w-1/2">
@@ -58,7 +58,7 @@ function App() {
           <h2 className="text-4xl font-bold text-left text-gray-500 pt-3 pb-2">
             a designer & <br></br> developer
           </h2>
-          <h4 className="text-left pt-10 font-normal text-gray-500 w-3/4">
+          <h4 className="text-left pt-10 font-normal text-gray-500 w-5/4">
             i'm currently studying systems design engineering at UW. i'm an
             empathetic creator + a curious learner, looking for ways bridge the
             gap between design and development. also, i'm seeking summer 2023
