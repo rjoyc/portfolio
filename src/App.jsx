@@ -23,15 +23,15 @@ function App() {
   const projectifyLink =
     "https://racheljoy.notion.site/Projectify-How-might-we-empower-girls-to-break-into-STEM-dc6b76dbcd4747f2b7f1339f01501756";
   const thriveLink =
-    "https://www.notion.so/racheljoy/Thrive-How-might-we-help-students-find-what-self-care-looks-like-for-them-4163f0ba29964e0ca28b88cf56b473ee";
+    "https://racheljoy.notion.site/Thrive-How-might-we-help-students-find-what-self-care-looks-like-for-them-4163f0ba29964e0ca28b88cf56b473ee";
   const coffeeHouseLink =
-    "https://www.notion.so/racheljoy/Coffee-House-How-might-we-increase-satisfaction-for-making-coffee-shop-orders-4a552f58c9dd41c39c08ce1a2c6f40ca";
+    "https://racheljoy.notion.site/Coffee-House-How-might-we-increase-satisfaction-for-making-coffee-shop-orders-4a552f58c9dd41c39c08ce1a2c6f40ca";
   const asanabanLink =
-    "https://www.notion.so/racheljoy/Asanaban-How-might-we-help-employees-view-their-Asana-tasks-in-Kanban-c3afd502a0ae45898a52a0a6fcaa4f3d";
+    "https://racheljoy.notion.site/Asanaban-How-might-we-help-employees-view-their-Asana-tasks-in-Kanban-c3afd502a0ae45898a52a0a6fcaa4f3d";
   const runAlongLink =
-    "https://www.notion.so/racheljoy/Run-Along-How-might-we-help-people-track-their-running-data-all-in-one-place-beb449b7c9ed4123aa25b5e75e01d082";
+    "https://racheljoy.notion.site/Run-Along-How-might-we-help-people-track-their-running-data-all-in-one-place-beb449b7c9ed4123aa25b5e75e01d082";
   const investmentAppLink =
-    "https://www.notion.so/racheljoy/Investment-Planner-Dash-How-might-we-help-users-organize-one-time-investments-183cf2abfa3c4ad78150e70905a834a0";
+    "https://racheljoy.notion.site/Investment-Planner-Dash-How-might-we-help-users-organize-one-time-investments-183cf2abfa3c4ad78150e70905a834a0";
   const linkedInLink = "https://www.linkedin.com/in/rjcopreros/";
   const emailLink = "mailto:rjoycopreros@gmail.com";
   const githubLink = "https://github.com/rjoyc";
