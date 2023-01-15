@@ -17,7 +17,7 @@ import DoodleLanding from "./assets/doodle-landing.png"
 
 function App() {
   const [count, setCount] = useState(0);
-  const workLink = "/";
+  const workLink = "/portfolio/";
   const aboutLink =
     "https://racheljoy.notion.site/About-Me-f3e9df011e6f467d95e39073c273dfb9";
   const projectifyLink =
