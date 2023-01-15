@@ -3,7 +3,7 @@ export default function NavBar({ aboutLink, resumeLink, workLink }) {
     <div className="flex justify-between">
       <div>
         <a href={workLink}>
-          <img src="src\assets\temp-logo.svg" alt="R logo"></img>
+          <img src="src\assets\temp-logo.svg" alt="R logo" className="w-9"></img>
         </a>
       </div>
       <div>
