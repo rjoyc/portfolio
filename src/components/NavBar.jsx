@@ -1,9 +1,11 @@
+import Logo from "./assets/temp-logo.png"
+
 export default function NavBar({ aboutLink, resumeLink, workLink }) {
   return (
     <div className="flex justify-between">
       <div>
         <a href={workLink}>
-          <img src="src\assets\temp-logo.svg" alt="R logo" className="w-9"></img>
+          <img src={Logo} alt="R logo" className="w-9"></img>
         </a>
       </div>
       <div>

@@ -13,6 +13,7 @@ import SlateReport from "./assets/slate-cover.png";
 import SlateReportPDF from "./assets/SlateImpactReport.pdf";
 import Connect from "./components/Connect";
 import Copywrite from "./components/Copywrite";
+import DoodleLanding from "./assets/doodle-landing.png"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,7 +47,7 @@ function App() {
       <div className="flex justify-center items-center pt-20">
         <div>
           <img
-            src="src\assets\doodle-landing.png"
+            src={DoodleLanding}
             alt="doodle of teenager listens to music in headphones and hang loose symbol"
             className="pt-2 pl-5 pr-20 hover:animate-wiggle h-80"
           ></img>
