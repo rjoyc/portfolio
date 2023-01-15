@@ -2,7 +2,7 @@ import Logo from "../assets/temp-logo.svg"
 
 export default function NavBar({ aboutLink, resumeLink, workLink }) {
   return (
-    <div className="flex justify-between">
+    <div className="flex items-center justify-between">
       <div>
         <a href={workLink}>
           <img src={Logo} alt="R logo" className="w-9"></img>

@@ -48,8 +48,8 @@ function App() {
         <div>
           <img
             src={DoodleLanding}
-            alt="doodle of teenager listens to music in headphones and hang loose symbol"
-            className="pt-2 pl-5 pr-20 hover:animate-wiggle h-80"
+            alt="doodle of rachel listening to music"
+            className="pt-2 pl-5 pr-20 hover:animate-wiggle h-80 object-contain"
           ></img>
         </div>
         <div className="w-1/2">
