@@ -1,4 +1,4 @@
-import Logo from "./assets/temp-logo.png"
+import Logo from "../assets/temp-logo.svg"
 
 export default function NavBar({ aboutLink, resumeLink, workLink }) {
   return (
