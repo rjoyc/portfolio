@@ -55,10 +55,10 @@ function App() {
           <h1 className="font-bold text-left text-8xl pt-30 pb-2">
             hi, i'm <br></br> rachel joy
           </h1>
-          <h2 className="text-4xl font-bold text-left text-gray-500 pt-3 pb-2">
+          <h2 className="text-4xl font-bold text-left text-neutral-500 pt-3 pb-2">
             a designer & <br></br> developer
           </h2>
-          <h4 className="text-left pt-10 font-normal text-gray-500 w-5/4">
+          <h4 className="text-left pt-10 font-normal text-neutral-500 w-5/4">
             i'm currently studying systems design engineering at UW. i'm an
             empathetic creator + a curious learner, looking for ways bridge the
             gap between design and development. also, i'm seeking summer 2023
@@ -67,7 +67,7 @@ function App() {
         </div>
       </div>
 
-      <h2 className="text-4xl font-bold text-center text-gray-500 pt-16 pb-10">
+      <h2 className="text-4xl font-bold text-center text-neutral-500 pt-16 pb-10">
         my work
       </h2>
       <div className="grid grid-cols-2 gap-12">
