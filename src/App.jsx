@@ -64,8 +64,7 @@ function App() {
             <body className="leading-tight text-center md:text-left font-normal text-neutral-800">
               i'm currently studying systems design engineering at UW. i'm an
               empathetic creator + a curious learner, looking for ways bridge
-              the gap between design and development. also, i'm seeking summer
-              2023 internships!
+              the gap between design and development.
             </body>
             <div className="w-fit border-2 border-neutral-800 rounded-lg p-2 pr-3 shadow transition hover:bg-sky-100">
               <body className="leading-tight text-center md:text-left font-normal text-neutral-800">
