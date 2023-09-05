@@ -1,9 +1,9 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 
 .logo {
   height: 6em;
@@ -40,7 +40,7 @@
   color: #888;
 }
 
-.font-bold {
+/* .font-bold {
   font-family: "OpenSauceSansBold";
 }
 
@@ -50,4 +50,4 @@
 
 .font-normal {
   font-family: "OpenSauceSansRegular";
-}
+} */
