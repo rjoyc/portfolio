@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Resume from "./assets/RachelJoyCoprerosResumeWinter2023.pdf";
+import Resume from "./assets/RachelCoprerosResumeWinter2024.pdf";
 import ProjectCardNew from "./components/ProjectCardNew";
 import DOZR from "./assets/DOZR-cover.png";
 import Projectify from "./assets/projectify-cover-new.png";
@@ -51,7 +51,7 @@ function App() {
             className="h-60 m-auto md:w-auto md:h-auto transition hover:animate-wiggle object-contain"
           ></img>
         </div>
-        <div className="flex flex-col gap-y-6 md:w-1/3">
+        <div className="flex flex-col justify-center gap-y-6 md:w-1/3">
           <div className="flex flex-col gap-y-1 justify-center">
             <h1 className="font-bold text-neutral-800 text-center md:text-left text-4xl md:text-6xl">
               hi, i'm rachel joy
@@ -63,7 +63,7 @@ function App() {
           <div className="flex flex-col gap-y-4">
             <body className="leading-tight text-center md:text-left font-normal text-neutral-800">
               i'm currently studying systems design engineering at UW. i'm an
-              empathetic creator + a curious learner, looking for ways bridge
+              empathetic creator + a curious learner, looking for ways to bridge
               the gap between design and development.
             </body>
             <div className="w-fit border-2 border-neutral-800 rounded-lg p-2 pr-3 shadow transition hover:bg-sky-100">
@@ -151,7 +151,7 @@ function App() {
       </div>
 
       {/* copywrite section */}
-      <div>
+      <div className="p-4">
         <Copywrite year={copywriteYear}></Copywrite>
       </div>
     </div>
