@@ -7,7 +7,7 @@ import Solace from "./assets/solace-cover.png";
 import DOZR from "./assets/DOZR-cover.png";
 import Projectify from "./assets/projectify-cover-new.png";
 import Thrive from "./assets/thrive-cover-new.png";
-import CoffeeHouse from "./assets/coffeeHouse-cover-new.png";
+// import CoffeeHouse from "./assets/coffeeHouse-cover-new.png";
 import Copywrite from "./components/Copywrite";
 import DoodleLanding from "./assets/Me.png";
 import DoodleLandingHover from "./assets/Me_hover.png";
