@@ -24,7 +24,7 @@ function App() {
   const solaceLink =
   "https://www.figma.com/slides/vxqGQwBc2q74FLrEb0EFqH/Solace%3A-Competitive-Analysis-of-Access-Request-Flows?node-id=5-86&t=NqgzjLiGxUE58bUi-1";
     const dozrLink =
-    "https://racheljoy.notion.site/DOZR-0b2fcd720de9494dad7069906193fb9d?pvs=4";
+    "https://www.figma.com/slides/dzxepFApQ0JICsXFU7jq0o/DOZR%3A-Lead-Acqusition?node-id=1-28691&t=LKNMABLBaxAvtjvV-1";
   const projectifyLink =
     "https://racheljoy.notion.site/Projectify-How-might-we-empower-girls-to-break-into-STEM-dc6b76dbcd4747f2b7f1339f01501756";
   const thriveLink =
