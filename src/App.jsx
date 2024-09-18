@@ -98,7 +98,7 @@ function App() {
             howMightWe="Designing solutions for a rental equipment marketplace"
             cover={DOZR}
             link={dozrLink}
-            status="Coming soon!"
+            status="Read now!"
             skills={["ui/ux design", "product thinking"]}
           ></ProjectCardNew>
           <ProjectCardNew
